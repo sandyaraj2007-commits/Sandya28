@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandya K B — Computer Science & Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Sandya K B, a 2nd Year Computer Science and Engineering student passionate about programming, problem solving, Java, and practical hardware & software projects.">
+  <meta name="keywords" content="Computer Science Student, Portfolio, Java, Python, Arduino, IoT, Engineering, Sandya K B">
+  <meta name="author" content="Sandya K B">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+  <!-- Google Fonts: Editorial Serif (Playfair Display) + Modern Sans (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="SANDYA K B Portfolio Home">
+        <span class="logo-badge">SKB</span>
+        <span class="logo-text">SANDYA K B</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle dark mode" title="Switch Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Connect</a>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="mobileMenuToggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-inner">
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#video" class="mobile-nav-link">Video</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#education" class="mobile-nav-link">Education</a>
+        <a href="#resume" class="mobile-nav-link">Resume</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary btn-block">Let's Connect</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal-element">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span class="eyebrow-text">COMPUTER SCIENCE &amp; ENGINEERING</span>
+          </div>
+
+          <div class="hero-name-display">
+            <span class="hero-name-bold">SANDYA K B</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building ideas <br>
+            <span class="hero-title-italic">with code.</span>
+          </h1>
+
+          <div class="hero-role-tag">2nd Year CSE Student</div>
+
+          <p class="hero-description">
+            Learning Java, C, Python, data structures and software development while building practical projects.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary btn-large">
+              <span>View My Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <a href="#video" class="btn btn-secondary btn-large">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Watch Video</span>
+            </a>
+            <a href="#resume" class="btn btn-secondary btn-large">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-highlight-pill">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            <span>Computer Science Student &bull; Java Learner &bull; Problem Solver</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal-element">
+          <div class="portrait-card-wrapper">
+            <div class="portrait-frame">
+              <img src="assets/profile.jpg" alt="Sandya K B - Computer Science & Engineering Student" class="portrait-img">
+              <div class="portrait-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-eyebrow">01 — ABOUT ME</div>
+        
+        <div class="about-grid">
+          <div class="about-main reveal-element">
+            <h2 class="section-title">Developer. Learner. Problem Solver.</h2>
+            <div class="about-paragraphs">
+              <p class="lead-text">
+                I am a 2nd year Computer Science and Engineering student with an interest in programming, software development and practical technology projects.
+              </p>
+              <p>
+                I am currently strengthening my programming fundamentals and learning how software and hardware can work together to solve real-world problems.
+              </p>
+              <p>
+                My current learning journey includes Java, C, Python, OOPS, operating systems and basic data structures.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-cards-grid reveal-element">
+            <div class="info-card">
+              <div class="info-number">01</div>
+              <div class="info-label">CURRENTLY LEARNING</div>
+              <div class="info-value">Java &amp; Problem Solving</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-number">02</div>
+              <div class="info-label">FIELD</div>
+              <div class="info-value">Computer Science &amp; Engineering</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-number">03</div>
+              <div class="info-label">INTEREST</div>
+              <div class="info-value">Software Development &amp; Practical Projects</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-number">04</div>
+              <div class="info-label">GOAL</div>
+              <div class="info-value">Become a skilled software developer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section-padding bg-subtle" id="skills">
+      <div class="container">
+        <div class="section-header-center reveal-element">
+          <div class="section-eyebrow">02 — SKILLS &amp; PROFICIENCIES</div>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">
+            An honest reflection of my technical toolkit as a 2nd year engineering student.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card reveal-element">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="category-title">Programming</h3>
+            </div>
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Java</span>
+                <span class="skill-badge badge-learning">Learning</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">C</span>
+                <span class="skill-badge badge-basic">Basic</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Python</span>
+                <span class="skill-badge badge-learning">Learning</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Core Concepts -->
+          <div class="skill-category-card reveal-element">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 class="category-title">Core Concepts</h3>
+            </div>
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">OOPS</span>
+                <span class="skill-badge badge-learning">Learning</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Operating Systems</span>
+                <span class="skill-badge badge-basic">Basic</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Basic Data Structures</span>
+                <span class="skill-badge badge-learning">Learning</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend / Programming Basics -->
+          <div class="skill-category-card reveal-element">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3 class="category-title">Programming Basics</h3>
+            </div>
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Java Basics</span>
+                <span class="skill-badge badge-familiar">Familiar</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Python Basics</span>
+                <span class="skill-badge badge-familiar">Familiar</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Web Basics (HTML/CSS)</span>
+                <span class="skill-badge badge-beginner">Beginner</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Other / Hardware Integration -->
+          <div class="skill-category-card reveal-element">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+              </div>
+              <h3 class="category-title">Hardware &amp; Tools</h3>
+            </div>
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Arduino &amp; IDE</span>
+                <span class="skill-badge badge-familiar">Familiar</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Sensors Integration</span>
+                <span class="skill-badge badge-familiar">Familiar</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">GitHub Version Control</span>
+                <span class="skill-badge badge-basic">Basic</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education / Timeline Section -->
+    <section class="education-section section-padding" id="education">
+      <div class="container">
+        <div class="section-eyebrow">03 — ACADEMICS</div>
+        <h2 class="section-title">My Journey</h2>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Item 1: Current B.Tech -->
+          <div class="timeline-item reveal-element">
+            <div class="timeline-marker is-current">
+              <span class="marker-pulse"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-tag current-tag">2025 – 2029 • CURRENT</span>
+                <span class="timeline-score-badge">CGPA: 7.3</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Engineering in Computer Science &amp; Engineering</h3>
+              <div class="timeline-sub">Adichunchanagiri Institute of Technology, Chikkamagaluru</div>
+              <p class="timeline-desc">
+                Currently in 2nd Year. Strengthening core programming fundamentals in Java, C, and Python, Data Structures Basics, OOPs, Operating Systems, and developing academic hardware-software solutions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Earlier Pre-University -->
+          <div class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-tag">2025 • COMPLETED</span>
+                <span class="timeline-score-badge">Score: 80.33%</span>
+              </div>
+              <h3 class="timeline-degree">Pre-University Education (12th Standard)</h3>
+              <div class="timeline-sub">STJ Comp PU College, Davanagere</div>
+              <p class="timeline-desc">
+                Completed pre-university education in the Science stream with a strong foundation in Mathematics, Physics, and analytical problem-solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: Earlier School -->
+          <div class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-tag">2023 • COMPLETED</span>
+                <span class="timeline-score-badge">Score: 78.4%</span>
+              </div>
+              <h3 class="timeline-degree">Secondary School Education (10th Standard)</h3>
+              <div class="timeline-sub">Navachetana Higher Primary School, Channagiri</div>
+              <p class="timeline-desc">
+                Completed foundational schooling, building strong basics in science, mathematics, and logical reasoning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section section-padding bg-subtle" id="projects">
+      <div class="container">
+        <div class="projects-header-row reveal-element">
+          <div>
+            <div class="section-eyebrow">04 — PORTFOLIO PROJECTS</div>
+            <h2 class="section-title">A few things I've built</h2>
+          </div>
+          <p class="projects-intro-text">
+            Practical academic &amp; hands-on projects exploring IoT hardware integration, sensors, and clean programming fundamentals.
+          </p>
+        </div>
+
+        <div class="projects-list">
+          <!-- Project 01 -->
+          <article class="project-editorial-card reveal-element">
+            <div class="project-visual-wrapper">
+              <img src="assets/project-smart-bin.jpg" alt="Smart Waste Dustbin using AI and Arduino prototype" class="project-img">
+              <div class="project-category-badge">AI / IoT / Hardware Integration</div>
+            </div>
+            
+            <div class="project-details">
+              <div class="project-meta-top">
+                <span class="project-num">PROJECT 01</span>
+                <span class="project-duration">Duration: 3 Months</span>
+              </div>
+
+              <h3 class="project-title">Smart Waste Dustbin Using AI</h3>
+
+              <p class="project-description">
+                A smart waste-management project that explores the use of sensors, Arduino and AI-based ideas to improve waste handling and awareness.
+              </p>
+
+              <div class="project-impact-box">
+                <strong>Project Impact:</strong> Designed to help address overflowing waste and encourage better waste-management practices.
+              </div>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Arduino Uno</span>
+                <span class="tech-pill">Ultrasonic Sensor</span>
+                <span class="tech-pill">Servo Motor</span>
+                <span class="tech-pill">Arduino IDE</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary open-modal-btn" data-project-id="project1">
+                  <span>View Project Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-editorial-card reveal-element reverse-card">
+            <div class="project-visual-wrapper">
+              <img src="assets/project-solar-charger.jpg" alt="Solar Mobile Charging System prototype with solar panel and battery circuit" class="project-img">
+              <div class="project-category-badge">Renewable Energy / Hardware Project</div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta-top">
+                <span class="project-num">PROJECT 02</span>
+                <span class="project-duration">Duration: 3 Months</span>
+              </div>
+
+              <h3 class="project-title">Solar Mobile Charging System</h3>
+
+              <p class="project-description">
+                A solar-powered mobile charging project that uses renewable energy to provide a practical charging solution.
+              </p>
+
+              <div class="project-impact-box">
+                <strong>Project Impact:</strong> Demonstrates how solar energy can be used for useful everyday applications.
+              </div>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">Solar Panel</span>
+                <span class="tech-pill">Rechargeable Battery</span>
+                <span class="tech-pill">Charge Controller</span>
+                <span class="tech-pill">USB Module</span>
+                <span class="tech-pill">Circuit Wiring</span>
+                <span class="tech-pill">LED Indicator</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary open-modal-btn" data-project-id="project2">
+                  <span>View Project Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Process Section (Dark Editorial Section) -->
+    <section class="process-section section-padding dark-section" id="process">
+      <div class="container">
+        <div class="section-header-center reveal-element">
+          <div class="section-eyebrow text-gold">05 — METHODOLOGY</div>
+          <h2 class="section-title text-light">How I Learn &amp; Build</h2>
+          <p class="section-subtitle text-muted">
+            A structured 5-step approach to understanding problems, implementing clean code, and mastering new technologies.
+          </p>
+        </div>
+
+        <div class="process-steps-grid">
+          <div class="process-card reveal-element">
+            <div class="process-step-num">01</div>
+            <h3 class="process-step-title">UNDERSTAND</h3>
+            <p class="process-step-desc">Understand the problem thoroughly and define the objective clearly.</p>
+          </div>
+
+          <div class="process-card reveal-element">
+            <div class="process-step-num">02</div>
+            <h3 class="process-step-title">PLAN</h3>
+            <p class="process-step-desc">Break the problem into smaller, manageable logical parts and components.</p>
+          </div>
+
+          <div class="process-card reveal-element">
+            <div class="process-step-num">03</div>
+            <h3 class="process-step-title">BUILD</h3>
+            <p class="process-step-desc">Write code, configure circuits, and integrate software with hardware.</p>
+          </div>
+
+          <div class="process-card reveal-element">
+            <div class="process-step-num">04</div>
+            <h3 class="process-step-title">TEST</h3>
+            <p class="process-step-desc">Test the project systematically, identify edge cases, and fix issues.</p>
+          </div>
+
+          <div class="process-card reveal-element">
+            <div class="process-step-num">05</div>
+            <h3 class="process-step-title">LEARN</h3>
+            <p class="process-step-desc">Improve the solution and extract key learning takeaways for the next challenge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools & Technologies Visual Grid -->
+    <section class="tools-section section-padding" id="tools">
+      <div class="container">
+        <div class="section-header-center reveal-element">
+          <div class="section-eyebrow">06 — TOOLBOX</div>
+          <h2 class="section-title">Tools &amp; Technologies</h2>
+          <p class="section-subtitle">
+            Languages, development environments, and platforms I actively work with.
+          </p>
+        </div>
+
+        <div class="tools-grid reveal-element">
+          <div class="tool-card">
+            <div class="tool-icon-wrap">☕</div>
+            <h3 class="tool-name">Java</h3>
+            <span class="tool-tag">Primary Learning</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">⚡</div>
+            <h3 class="tool-name">C</h3>
+            <span class="tool-tag">Programming Basics</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🐍</div>
+            <h3 class="tool-name">Python</h3>
+            <span class="tool-tag">Scripting &amp; Logic</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🌐</div>
+            <h3 class="tool-name">HTML</h3>
+            <span class="tool-tag">Web Structure</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🎨</div>
+            <h3 class="tool-name">CSS</h3>
+            <span class="tool-tag">Styling &amp; Layout</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">💻</div>
+            <h3 class="tool-name">JavaScript</h3>
+            <span class="tool-tag">Web Logic</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🤖</div>
+            <h3 class="tool-name">Arduino</h3>
+            <span class="tool-tag">Microcontroller</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🛠️</div>
+            <h3 class="tool-name">Arduino IDE</h3>
+            <span class="tool-tag">Hardware Dev</span>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon-wrap">🐙</div>
+            <h3 class="tool-name">GitHub</h3>
+            <span class="tool-tag">Version Control</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Currently Growing & What I'm Working Towards -->
+    <section class="growth-section section-padding bg-subtle" id="growth">
+      <div class="container">
+        <div class="growth-split-layout">
+          <!-- Left Column: Currently Growing -->
+          <div class="growth-column reveal-element">
+            <div class="section-eyebrow">07 — PROGRESSION</div>
+            <h2 class="section-title">Key Achievements &amp; Growth</h2>
+            <p class="growth-statement">
+              Building programming fundamentals, developing practical projects, and turning technical knowledge into hands-on hardware and software solutions.
+            </p>
+
+            <div class="mini-cards-grid">
+              <div class="growth-badge-card">
+                <div class="badge-icon">🔬</div>
+                <div class="badge-text">
+                  <h4>Academic Projects &amp; Hardware</h4>
+                  <p>Gained practical experience through projects involving programming, Arduino, sensors, and hardware integration.</p>
+                </div>
+              </div>
+
+              <div class="growth-badge-card">
+                <div class="badge-icon">🌱</div>
+                <div class="badge-text">
+                  <h4>Domain Knowledge</h4>
+                  <p>Developed project-based knowledge in waste management and renewable-energy applications.</p>
+                </div>
+              </div>
+
+              <div class="growth-badge-card">
+                <div class="badge-icon">🧩</div>
+                <div class="badge-text">
+                  <h4>Hands-On Problem Solving</h4>
+                  <p>Strengthened problem-solving and technical skills through practical project implementation and testing.</p>
+                </div>
+              </div>
+
+              <div class="growth-badge-card">
+                <div class="badge-icon">💻</div>
+                <div class="badge-text">
+                  <h4>Continuous Programming</h4>
+                  <p>Continuously improving programming knowledge in Java, C, and Python through academic learning and practice.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: What I'm Working Towards -->
+          <div class="growth-column reveal-element">
+            <div class="section-eyebrow">08 — ASPIRATIONS</div>
+            <h2 class="section-title">What I'm Working Towards</h2>
+            <p class="growth-statement">
+              Focused milestones shaping my journey towards becoming a versatile and skilled software engineer.
+            </p>
+
+            <div class="aspirations-list">
+              <div class="aspiration-card">
+                <div class="aspiration-num">01</div>
+                <div class="aspiration-content">
+                  <h3>Strong Programming Fundamentals</h3>
+                  <p>Mastering Object-Oriented Programming (OOP) and algorithmic thinking with Java and C.</p>
+                </div>
+              </div>
+
+              <div class="aspiration-card">
+                <div class="aspiration-num">02</div>
+                <div class="aspiration-content">
+                  <h3>Better Problem Solving</h3>
+                  <p>Deepening knowledge in data structures and optimizing code efficiency.</p>
+                </div>
+              </div>
+
+              <div class="aspiration-card">
+                <div class="aspiration-num">03</div>
+                <div class="aspiration-content">
+                  <h3>Hackathon Participation</h3>
+                  <p>Enthusiastic about participating in upcoming hackathons to gain practical project experience, team collaboration, and rapid building skills.</p>
+                </div>
+              </div>
+
+              <div class="aspiration-card">
+                <div class="aspiration-num">04</div>
+                <div class="aspiration-content">
+                  <h3>Real-World Project Experience</h3>
+                  <p>Collaborating on software applications and end-to-end hardware-software integrations.</p>
+                </div>
+              </div>
+
+              <div class="aspiration-card">
+                <div class="aspiration-num">05</div>
+                <div class="aspiration-content">
+                  <h3>Software Development Skills</h3>
+                  <p>Learning modern developer workflows, clean code architecture, and deployment principles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Resume Section with Decent Lines & Editorial Layout -->
+    <section class="resume-section section-padding" id="resume">
+      <div class="container">
+        <div class="projects-header-row reveal-element">
+          <div>
+            <div class="section-eyebrow">09 — CURRICULUM VITAE</div>
+            <h2 class="section-title">My Resume</h2>
+          </div>
+          <div class="resume-actions-top">
+            <a href="assets/resume.pdf" download="Sandya_K_B_Resume.pdf" class="btn btn-primary resume-download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download PDF Resume</span>
+            </a>
+            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>View Full PDF</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Editorial Resume Sheet with Decent Fine Lines -->
+        <div class="resume-sheet-card reveal-element">
+          <!-- Resume Sheet Header -->
+          <div class="resume-header">
+            <h2 class="resume-person-name">SANDYA K B</h2>
+            <div class="resume-contact-meta">
+              <span class="meta-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="tel:+919019715593">+91 90197 15593</a>
+              </span>
+              <span class="meta-divider">•</span>
+              <span class="meta-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <a href="mailto:kbsandya2007@gmail.com">kbsandya2007@gmail.com</a>
+              </span>
+              <span class="meta-divider">•</span>
+              <span class="meta-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <a href="https://www.linkedin.com/in/sandya-k-b-7a0a4a396" target="_blank" rel="noopener noreferrer">sandya-k-b-7a0a4a396</a>
+              </span>
+              <span class="meta-divider">•</span>
+              <span class="meta-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <a href="https://github.com/sandyaraj2007-commits" target="_blank" rel="noopener noreferrer">sandyaraj2007-commits</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="resume-line-separator"></div>
+
+          <!-- Section: Skills -->
+          <div class="resume-section-block">
+            <h3 class="resume-block-title">Skills</h3>
+            <ul class="resume-bullet-list">
+              <li><strong>Programming:</strong> Java, C, Python</li>
+              <li><strong>Backend:</strong> Java Basics, Python Basics</li>
+              <li><strong>Core:</strong> Data Structures Basics, OOPs, Operating Systems</li>
+            </ul>
+          </div>
+
+          <div class="resume-line-separator"></div>
+
+          <!-- Section: Projects -->
+          <div class="resume-section-block">
+            <h3 class="resume-block-title">Projects</h3>
+            
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">Smart Dustbin Using AI</h4>
+                <span class="resume-item-meta">3 Months</span>
+              </div>
+              <div class="resume-tech-line">
+                <em>Technologies: Python, Arduino Uno, Ultrasonic Sensor, Servo Motor, Arduino IDE</em>
+              </div>
+              <ul class="resume-bullet-list">
+                <li>Developed an academic smart dustbin project using Arduino Uno, ultrasonic sensors, and servo motor to support automated waste management.</li>
+                <li>Applied basic AI-based waste segregation concepts to improve waste handling, promote recycling, and reduce pollution.</li>
+                <li>Contributed to cleaner surroundings and smarter waste management through an automated approach.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item-spacer"></div>
+
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">Solar Mobile Charging System</h4>
+                <span class="resume-item-meta">3 Months</span>
+              </div>
+              <div class="resume-tech-line">
+                <em>Technologies: Solar Panel, Rechargeable Battery, Charge Controller, USB Charging Module</em>
+              </div>
+              <ul class="resume-bullet-list">
+                <li>Developed a solar-powered mobile charging system using renewable solar energy to reduce dependency on conventional electricity.</li>
+                <li>Designed a low-cost and portable charging solution suitable for students, commuters, and areas with limited access to electricity.</li>
+                <li>Promoted sustainable technology by using clean energy for everyday mobile charging needs.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-line-separator"></div>
+
+          <!-- Section: Experiences -->
+          <div class="resume-section-block">
+            <h3 class="resume-block-title">Experiences</h3>
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">Academic Projects</h4>
+                <span class="resume-item-meta tag-no-exp">No Formal Work Experience</span>
+              </div>
+              <ul class="resume-bullet-list">
+                <li>Handled project tasks including basic coding, component integration, testing, and documentation.</li>
+                <li>Contributed to practical solutions focused on waste management and renewable energy.</li>
+                <li>Gained hands-on experience in Python, Arduino, sensors, and basic problem solving.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-line-separator"></div>
+
+          <!-- Section: Achievements -->
+          <div class="resume-section-block">
+            <h3 class="resume-block-title">Achievements</h3>
+            <ul class="resume-bullet-list">
+              <li>Gained practical experience through academic projects involving programming, Arduino, sensors, and hardware integration.</li>
+              <li>Developed project-based knowledge in waste management and renewable-energy applications.</li>
+              <li>Strengthened problem-solving and technical skills through hands-on project implementation and testing.</li>
+              <li>Continuously improving programming knowledge in Java, C, and Python through academic learning and practice.</li>
+            </ul>
+          </div>
+
+          <div class="resume-line-separator"></div>
+
+          <!-- Section: Education -->
+          <div class="resume-section-block">
+            <h3 class="resume-block-title">Education</h3>
+
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">Adichunchanagiri Institute of Technology</h4>
+                <span class="resume-item-meta">2025–2029</span>
+              </div>
+              <div class="resume-sub-line">
+                <span>Bachelor of Engineering in Computer Science and Engineering &bull; Chikkamagaluru</span>
+                <strong class="resume-score">CGPA: 7.3</strong>
+              </div>
+            </div>
+
+            <div class="resume-item-spacer"></div>
+
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">STJ Comp PU College</h4>
+                <span class="resume-item-meta">2025</span>
+              </div>
+              <div class="resume-sub-line">
+                <span>12th Standard &bull; Davanagere</span>
+                <strong class="resume-score">Score: 80.33%</strong>
+              </div>
+            </div>
+
+            <div class="resume-item-spacer"></div>
+
+            <div class="resume-item">
+              <div class="resume-item-top">
+                <h4 class="resume-item-title">Navachetana Higher Primary School</h4>
+                <span class="resume-item-meta">2023</span>
+              </div>
+              <div class="resume-sub-line">
+                <span>10th Standard &bull; Channagiri</span>
+                <strong class="resume-score">Score: 78.4%</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mini AI Chat Section -->
+    <section class="ai-chat-section section-padding" id="chat">
+      <div class="container">
+        <div class="section-header-center reveal-element">
+          <div class="section-eyebrow">09 — INTERACTIVE ASSISTANT</div>
+          <h2 class="section-title">Ask About My Portfolio</h2>
+          <p class="section-subtitle">
+            Have a quick question? Ask the portfolio assistant or select a prompt below.
+          </p>
+        </div>
+
+        <div class="chat-widget-card reveal-element">
+          <div class="chat-header">
+            <div class="chat-avatar-status">
+              <div class="chat-avatar">✨</div>
+              <div>
+                <div class="chat-bot-name">Portfolio Assistant</div>
+                <div class="chat-status-indicator"><span class="status-dot"></span> Online &bull; Instant Answers</div>
+              </div>
+            </div>
+            <div class="chat-badge">Student Portfolio Q&amp;A</div>
+          </div>
+
+          <!-- Quick Suggestion Chips -->
+          <div class="chat-chips-row" id="chatChips">
+            <button class="chip-btn" data-query="What skills does she have?">What skills does she have?</button>
+            <button class="chip-btn" data-query="What projects has she built?">What projects has she built?</button>
+            <button class="chip-btn" data-query="What are her achievements?">What are her achievements?</button>
+            <button class="chip-btn" data-query="What is her education?">What is her education?</button>
+            <button class="chip-btn" data-query="Has she done hackathons?">Has she done hackathons?</button>
+          </div>
+
+          <!-- Chat Messages Container -->
+          <div class="chat-messages-box" id="chatMessages" role="log" aria-live="polite">
+            <div class="chat-msg bot-msg">
+              <div class="msg-bubble">
+                Hello! 👋 I'm Sandya's portfolio assistant. You can ask me about her skills, projects, current learning journey, or education!
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat Input Bar -->
+          <form class="chat-input-form" id="chatForm">
+            <input 
+              type="text" 
+              id="chatInput" 
+              class="chat-input-field" 
+              placeholder="Type your question here (e.g. What projects has she built?)..." 
+              autocomplete="off"
+              required
+            >
+            <button type="submit" class="btn btn-primary chat-send-btn" aria-label="Send message">
+              <span>Send</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding bg-subtle" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info-col reveal-element">
+            <div class="section-eyebrow">10 — GET IN TOUCH</div>
+            <h2 class="section-title">Have a project or opportunity in mind?</h2>
+            <p class="contact-intro">
+              I'm always interested in learning, building and connecting with people who share an interest in technology.
+            </p>
+
+            <div class="contact-cards-stack">
+              <div class="contact-detail-card">
+                <div class="detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="detail-label">PHONE NUMBER</div>
+                  <a href="tel:+919019715593" class="detail-link" id="contactPhoneDisplay">+91 90197 15593</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-card">
+                <div class="detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <div class="detail-label">EMAIL ME</div>
+                  <a href="mailto:kbsandya2007@gmail.com" class="detail-link" id="contactEmailDisplay">kbsandya2007@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-card">
+                <div class="detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                  <div class="detail-label">LINKEDIN</div>
+                  <a href="https://www.linkedin.com/in/sandya-k-b-7a0a4a396" target="_blank" rel="noopener noreferrer" class="detail-link" id="contactLinkedinDisplay">sandya-k-b-7a0a4a396</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-card">
+                <div class="detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div>
+                  <div class="detail-label">GITHUB</div>
+                  <a href="https://github.com/sandyaraj2007-commits" target="_blank" rel="noopener noreferrer" class="detail-link" id="contactGithubDisplay">sandyaraj2007-commits</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-col reveal-element">
+            <div class="form-card">
+              <h3 class="form-card-title">Send a Direct Message</h3>
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="userName" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="userName" class="form-control" placeholder="e.g. Alex Smith" required>
+                  <div class="form-feedback" id="nameFeedback"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Your Email <span class="required">*</span></label>
+                  <input type="email" id="userEmail" class="form-control" placeholder="e.g. alex@example.com" required>
+                  <div class="form-feedback" id="emailFeedback"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Message <span class="required">*</span></label>
+                  <textarea id="userMessage" class="form-control" rows="5" placeholder="Hi Sandya, I'd like to connect regarding..." required></textarea>
+                  <div class="form-feedback" id="messageFeedback"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitBtn">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+              </form>
+
+              <!-- Submission Status Alert (Client-side validation) -->
+              <div class="form-alert hidden" id="formAlert" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span id="formAlertMsg">Thank you! Your message has been received.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dark Luxury Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-badge">SKB</span>
+            <span class="footer-name">SANDYA K B</span>
+          </div>
+          <p class="footer-role">Computer Science &amp; Engineering Student</p>
+          <p class="footer-bio">
+            Passionate about coding, problem solving, and building practical technology solutions.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="https://github.com/sandyaraj2007-commits" target="_blank" rel="noopener noreferrer" class="social-footer-link" id="footerGithubLink">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                sandyaraj2007-commits
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sandya-k-b-7a0a4a396" target="_blank" rel="noopener noreferrer" class="social-footer-link" id="footerLinkedinLink">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                sandya-k-b-7a0a4a396
+              </a>
+            </li>
+            <li>
+              <a href="mailto:kbsandya2007@gmail.com" class="social-footer-link" id="footerEmailLink">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                kbsandya2007@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="copyright-text" id="copyrightText">
+          &copy; 2026 Sandya K B. All rights reserved.
+        </p>
+        <p class="footer-footnote">Designed with an editorial aesthetic for a 2nd Year Computer Science student portfolio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Interactive Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Project Details Modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-content-body">
+        <div class="modal-header-meta">
+          <span class="modal-category" id="modalCategory">AI / IoT</span>
+          <span class="modal-duration" id="modalDuration">Duration: 3 months</span>
+        </div>
+
+        <h2 class="modal-title" id="modalProjectTitle">Project Title</h2>
+
+        <div class="modal-image-wrapper">
+          <img src="" alt="Project Preview" id="modalProjectImage" class="modal-img">
+        </div>
+
+        <div class="modal-sections-list">
+          <div class="modal-section-block">
+            <h4 class="modal-subheading">Project Overview</h4>
+            <p id="modalOverview"></p>
+          </div>
+
+          <div class="modal-grid-two">
+            <div class="modal-section-block">
+              <h4 class="modal-subheading">Problem</h4>
+              <p id="modalProblem"></p>
+            </div>
+            <div class="modal-section-block">
+              <h4 class="modal-subheading">Solution</h4>
+              <p id="modalSolution"></p>
+            </div>
+          </div>
+
+          <div class="modal-section-block">
+            <h4 class="modal-subheading">Technologies &amp; Components</h4>
+            <div class="modal-tech-tags" id="modalTechTags"></div>
+          </div>
+
+          <div class="modal-grid-two">
+            <div class="modal-section-block">
+              <h4 class="modal-subheading">My Role</h4>
+              <p id="modalRole"></p>
+            </div>
+            <div class="modal-section-block">
+              <h4 class="modal-subheading">Impact</h4>
+              <p id="modalImpact"></p>
+            </div>
+          </div>
+
+          <div class="modal-section-block">
+            <h4 class="modal-subheading">Learning Outcomes</h4>
+            <p id="modalLearning"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Application -->
+  <script src="script.js"></script>
+</body>
+</html>
